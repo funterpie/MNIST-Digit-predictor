@@ -24,18 +24,21 @@
 ```
 mnist-digit-classifier/
 │
-├── main.py                  # FastAPI backend
-├── app.py                   # Streamlit frontend
-├── Notebook.ipynb           # Model training notebook
-├── mnist_model.keras        # Trained Keras model
-├── Dockerfile               # HuggingFace Docker config
-├── requirements.txt         # Backend dependencies
-├── sample_digits/           # Sample test images (0–9)
-│   ├── digit_0.png
-│   ├── digit_1.png
-│   └── ...
-└── README.md
-```
+├── backend/
+│   ├── main.py                  # FastAPI backend (MODEL + /predict endpoint)
+│   ├── requirements.txt        # Backend dependencies
+│   ├── mnist_model.keras       # Trained model (or .h5)
+│   └── Dockerfile              # HF Spaces backend deployment
+│
+├── frontend/
+│   ├── app.py                  # Streamlit UI
+│   └── sample_digits/
+│       ├── digit_0.png
+│       ├── digit_1.png
+│       └── ...
+│
+├── README.md
+└── .gitignore
 
 ---
 
