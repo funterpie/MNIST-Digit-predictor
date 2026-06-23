@@ -13,9 +13,9 @@
 
 | Service | URL |
 |---------|-----|
-| 🌐 Streamlit Frontend | `https://YOUR_APP.streamlit.app` |
-| ⚡ FastAPI Backend | `https://YOUR_HF_USERNAME-mnist-api.hf.space` |
-| 📖 API Swagger Docs | `https://YOUR_HF_USERNAME-mnist-api.hf.space/docs` |
+| 🌐 Streamlit Frontend | `https://mnist-digit-predictor-by-muhammad-taha.streamlit.app/` |
+| ⚡ FastAPI Backend | `https://huggingface.co/spaces/funterpie/MNIST_Digit_predictor` |
+| 📖 API Swagger Docs | `https://huggingface.co/spaces/funterpie/MNIST_Digit_predictor/docs` |
 
 ---
 
