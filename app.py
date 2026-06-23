@@ -175,7 +175,9 @@ html, body, [class*="css"] {
 # ─────────────────────────────────────────────
 #  CONSTANTS
 # ─────────────────────────────────────────────
-API_URL = "http://127.0.0.1:8000/predict/"
+
+API_URL = "https://funterpie-mnist-digit-predictor.hf.space/predict/"
+
 SAMPLE_DIR = "sample_digits"
 
 # ─────────────────────────────────────────────
@@ -237,7 +239,7 @@ with st.sidebar:
 
     # API health check
     try:
-        health = requests.get("http://127.0.0.1:8000/", timeout=3)
+        health = requests.get("https://funterpie-mnist-digit-predictor.hf.space/", timeout=3)
         if health.status_code == 200:
             st.markdown('<div class="api-status api-ok">✅ API Online</div>', unsafe_allow_html=True)
         else:
