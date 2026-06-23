@@ -19,28 +19,10 @@
 
 ---
 
-## 📁 Project Structure
 
-```
-mnist-digit-classifier/
-│
-├── backend/
-│   ├── main.py                  # FastAPI backend (MODEL + /predict endpoint)
-│   ├── requirements.txt        # Backend dependencies
-│   ├── mnist_model.keras       # Trained model (or .h5)
-│   └── Dockerfile              # HF Spaces backend deployment
-│
-├── frontend/
-│   ├── app.py                  # Streamlit UI
-│   └── sample_digits/
-│       ├── digit_0.png
-│       ├── digit_1.png
-│       └── ...
-│
-├── README.md
-└── .gitignore
 
----
+
+
 
 ## 🧠 Model Architecture
 
